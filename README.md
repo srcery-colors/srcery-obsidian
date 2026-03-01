@@ -39,17 +39,19 @@
 
 2. Copy `manifest.json` and `theme.css` into your vault's theme directory:
    ```sh
-   mkdir -p /path/to/vault/.obsidian/themes/srcery-obsidian
-   cp manifest.json theme.css /path/to/vault/.obsidian/themes/srcery-obsidian/
+   mkdir -p /path/to/vault/.obsidian/themes/Srcery
+   cp manifest.json theme.css /path/to/vault/.obsidian/themes/Srcery/
    ```
 
-   **Or** symlink the repo directly if you want to stay up to date with `git pull`:
+   **Or** symlink the files if you want to stay up to date with `git pull`:
    ```sh
-   ln -s /path/to/srcery-obsidian /path/to/vault/.obsidian/themes/
+   mkdir -p /path/to/vault/.obsidian/themes/Srcery
+   ln -s /path/to/srcery-obsidian/manifest.json /path/to/vault/.obsidian/themes/Srcery/
+   ln -s /path/to/srcery-obsidian/theme.css /path/to/vault/.obsidian/themes/Srcery/
    ```
-   Note that you have to make themes/ directory in each vault's .obsidian unless you've already chosen a marketplace theme.
+   Note that you have to create the `themes/` directory in each vault's `.obsidian/` unless you've already installed a theme from the marketplace.
 
-3. In Obsidian, go to **Settings → Appearance → Themes** and select **srcery-obsidian**.
+3. In Obsidian, go to **Settings → Appearance → Themes** and select **Srcery**.
 
 ## Palette
 
