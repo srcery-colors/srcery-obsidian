@@ -214,6 +214,14 @@ body {
     --callout-bug:     var(--srcery-red);
     --callout-example: var(--srcery-bright-magenta);
     --callout-quote:   var(--srcery-white);
+
+    /* Canvas preset colors */
+    --canvas-color-1: 239, 47, 39;
+    --canvas-color-2: 255, 95, 0;
+    --canvas-color-3: 251, 184, 41;
+    --canvas-color-4: 81, 159, 80;
+    --canvas-color-5: 44, 120, 191;
+    --canvas-color-6: 224, 44, 109;
 }
 
 /* ================================================================
@@ -322,6 +330,14 @@ input.task-list-item-checkbox:checked {
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.markdown-rendered .callout,
+.markdown-source-view.mod-cm6 .callout {
+    --callout-color: 81, 159, 80;
+    --callout-border-width: 1px;
+    --callout-border-opacity: 1;
+    background-color: var(--srcery-black);
 }
 
 /* ================================================================
