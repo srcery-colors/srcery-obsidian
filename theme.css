@@ -469,6 +469,171 @@ input.task-list-item-checkbox:checked {
     color: var(--text-normal);
 }
 
+/* Graph controls buttons — same 14-color hover cycle */
+.graph-controls > .graph-controls-button:nth-of-type(14n+1):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+1):hover svg  { color: var(--srcery-yellow); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+2):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+2):hover svg  { color: var(--srcery-red); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+3):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+3):hover svg  { color: var(--srcery-green); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+4):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+4):hover svg  { color: var(--srcery-blue); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+5):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+5):hover svg  { color: var(--srcery-magenta); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+6):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+6):hover svg  { color: var(--srcery-cyan); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+7):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+7):hover svg  { color: var(--srcery-orange); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+8):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+8):hover svg  { color: var(--srcery-bright-yellow); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+9):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+9):hover svg  { color: var(--srcery-bright-red); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+10):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+10):hover svg { color: var(--srcery-bright-green); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+11):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+11):hover svg { color: var(--srcery-bright-blue); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+12):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+12):hover svg { color: var(--srcery-bright-magenta); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+13):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+13):hover svg { color: var(--srcery-bright-cyan); }
+.graph-controls > .graph-controls-button:nth-of-type(14n+14):hover,
+.graph-controls > .graph-controls-button:nth-of-type(14n+14):hover svg { color: var(--srcery-bright-orange); }
+
+/* Bases toolbar buttons */
+.bases-toolbar .bases-toolbar-item.bases-toolbar-views-menu .text-icon-button:is(:hover, .is-active),
+.bases-toolbar .bases-toolbar-item.bases-toolbar-views-menu .text-icon-button:is(:hover, .is-active) svg { color: var(--srcery-yellow); }
+.bases-toolbar .bases-toolbar-item.bases-toolbar-sort-menu .text-icon-button:is(:hover, .is-active),
+.bases-toolbar .bases-toolbar-item.bases-toolbar-sort-menu .text-icon-button:is(:hover, .is-active) svg { color: var(--srcery-red); }
+.bases-toolbar .bases-toolbar-item.bases-toolbar-filter-menu .text-icon-button:is(:hover, .is-active),
+.bases-toolbar .bases-toolbar-item.bases-toolbar-filter-menu .text-icon-button:is(:hover, .is-active) svg { color: var(--srcery-green); }
+.bases-toolbar .bases-toolbar-item.bases-toolbar-properties-menu .text-icon-button:is(:hover, .is-active),
+.bases-toolbar .bases-toolbar-item.bases-toolbar-properties-menu .text-icon-button:is(:hover, .is-active) svg { color: var(--srcery-blue); }
+.bases-toolbar :is(.bases-toolbar-item.bases-toolbar-search .text-icon-button, .bases-toolbar-search.text-icon-button):is(:hover, .is-active),
+.bases-toolbar :is(.bases-toolbar-item.bases-toolbar-search .text-icon-button, .bases-toolbar-search.text-icon-button):is(:hover, .is-active) svg { color: var(--srcery-magenta); }
+.bases-toolbar .bases-toolbar-item.bases-toolbar-new-item-menu .text-icon-button:is(:hover, .is-active),
+.bases-toolbar .bases-toolbar-item.bases-toolbar-new-item-menu .text-icon-button:is(:hover, .is-active) svg { color: var(--srcery-cyan); }
+
+/* Canvas Instruction box menu thing */
+.workspace-leaf-content[data-type='canvas'] {
+    --color-accent: var(--srcery-green);
+    --color-accent-rgb: 81, 159, 80;
+    --color-accent-hsl: 119, 33%, 47%;
+}
+
+/* Canvas controls buttons */
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+1):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+1):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+1):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+1):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+1):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+1):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+1):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+1):hover svg  { color: var(--srcery-yellow); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+2):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+2):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+2):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+2):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+2):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+2):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+2):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+2):hover svg  { color: var(--srcery-red); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+3):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+3):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+3):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+3):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+3):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+3):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+3):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+3):hover svg  { color: var(--srcery-green); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+4):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+4):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+4):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+4):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+4):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+4):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+4):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+4):hover svg  { color: var(--srcery-blue); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+5):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+5):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+5):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+5):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+5):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+5):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+5):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+5):hover svg  { color: var(--srcery-magenta); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+6):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+6):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+6):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+6):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+6):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+6):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+6):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+6):hover svg  { color: var(--srcery-cyan); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+7):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+7):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+7):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+7):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+7):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+7):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+7):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+7):hover svg  { color: var(--srcery-orange); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+8):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+8):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+8):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+8):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+8):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+8):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+8):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+8):hover svg  { color: var(--srcery-bright-yellow); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+9):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+9):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+9):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+9):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+9):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+9):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+9):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+9):hover svg  { color: var(--srcery-bright-red); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+10):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+10):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+10):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+10):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+10):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+10):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+10):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+10):hover svg { color: var(--srcery-bright-green); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+11):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+11):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+11):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+11):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+11):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+11):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+11):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+11):hover svg { color: var(--srcery-bright-blue); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+12):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+12):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+12):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+12):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+12):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+12):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+12):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+12):hover svg { color: var(--srcery-bright-magenta); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+13):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+13):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+13):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+13):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+13):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+13):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+13):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+13):hover svg { color: var(--srcery-bright-cyan); }
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+14):hover,
+.canvas-control-group > .canvas-control-item:nth-of-type(14n+14):hover svg,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+14):hover,
+.canvas-card-menu > .canvas-card-menu-button:nth-of-type(14n+14):hover svg,
+.canvas-menu > .clickable-icon:nth-of-type(14n+14):hover,
+.canvas-menu > .clickable-icon:nth-of-type(14n+14):hover svg,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+14):hover,
+.canvas-submenu > .clickable-icon:nth-of-type(14n+14):hover svg { color: var(--srcery-bright-orange); }
+
 /* ================================================================
    12. MISC UI
    ================================================================ */
