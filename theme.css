@@ -451,6 +451,40 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 .workspace-leaf-content[data-type='tag'] .nav-buttons-container > .nav-action-button:nth-child(4n+4):is(:hover, .is-active),
 .workspace-leaf-content[data-type='tag'] .nav-buttons-container > .nav-action-button:nth-child(4n+4):is(:hover, .is-active) svg { color: var(--srcery-blue); }
 
+/* Markdown note header action buttons */
+.workspace-leaf-content[data-type='markdown'] .view-actions > .view-action:nth-child(3n+1):is(:hover, .is-active, .has-active-menu),
+.workspace-leaf-content[data-type='markdown'] .view-actions > .view-action:nth-child(3n+1):is(:hover, .is-active, .has-active-menu) svg { color: var(--srcery-yellow); }
+.workspace-leaf-content[data-type='markdown'] .view-actions > .view-action:nth-child(3n+2):is(:hover, .is-active, .has-active-menu),
+.workspace-leaf-content[data-type='markdown'] .view-actions > .view-action:nth-child(3n+2):is(:hover, .is-active, .has-active-menu) svg { color: var(--srcery-red); }
+.workspace-leaf-content[data-type='markdown'] .view-actions > .view-action:nth-child(3n+3):is(:hover, .is-active, .has-active-menu),
+.workspace-leaf-content[data-type='markdown'] .view-actions > .view-action:nth-child(3n+3):is(:hover, .is-active, .has-active-menu) svg { color: var(--srcery-green); }
+
+/* Left and right sidebar toggle buttons */
+.sidebar-toggle-button.mod-left:hover,
+.workspace.is-left-sidedock-open .sidebar-toggle-button.mod-left,
+.sidebar-toggle-button.mod-left:hover .clickable-icon,
+.workspace.is-left-sidedock-open .sidebar-toggle-button.mod-left .clickable-icon,
+.sidebar-toggle-button.mod-left:hover svg,
+.workspace.is-left-sidedock-open .sidebar-toggle-button.mod-left svg { color: var(--srcery-yellow); }
+.sidebar-toggle-button.mod-right:hover,
+.workspace.is-right-sidedock-open .sidebar-toggle-button.mod-right,
+.sidebar-toggle-button.mod-right:hover .clickable-icon,
+.workspace.is-right-sidedock-open .sidebar-toggle-button.mod-right .clickable-icon,
+.sidebar-toggle-button.mod-right:hover svg,
+.workspace.is-right-sidedock-open .sidebar-toggle-button.mod-right svg { color: var(--srcery-red); }
+
+/* Top tab and note navigation controls */
+.workspace-tab-header-new-tab:hover,
+.workspace-tab-header-new-tab:hover .clickable-icon,
+.workspace-tab-header-new-tab:hover svg { color: var(--srcery-yellow); }
+.workspace-tab-header-tab-list:is(:hover, .has-active-menu),
+.workspace-tab-header-tab-list:is(:hover, .has-active-menu) .clickable-icon,
+.workspace-tab-header-tab-list:is(:hover, .has-active-menu) svg { color: var(--srcery-blue); }
+.workspace-leaf-content[data-type='markdown'] .view-header-nav-buttons > .clickable-icon:first-child:hover,
+.workspace-leaf-content[data-type='markdown'] .view-header-nav-buttons > .clickable-icon:first-child:hover svg { color: var(--srcery-red); }
+.workspace-leaf-content[data-type='markdown'] .view-header-nav-buttons > .clickable-icon:nth-child(2):hover,
+.workspace-leaf-content[data-type='markdown'] .view-header-nav-buttons > .clickable-icon:nth-child(2):hover svg { color: var(--srcery-green); }
+
 .view-header-title {
     font-weight: 700;
 }
